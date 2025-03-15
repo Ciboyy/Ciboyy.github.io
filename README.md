@@ -1,2 +1,113 @@
-# Ciboyy.github.io
-about u
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story 💖</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            animation: fadeIn 3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1 {
+            color: #ffccff;
+            font-size: 36px;
+            text-shadow: 2px 2px 10px rgba(255, 105, 180, 0.8);
+            animation: heartbeat 2s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 220px;
+            height: 220px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 15px rgba(255, 192, 203, 0.8);
+            border: 3px solid #ff99cc;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .special-words {
+            margin-top: 30px;
+            font-size: 22px;
+            color: #534aa3;
+            font-style: italic;
+            background: rgba(143, 65, 77, 0.4);
+            padding: 15px;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 2px 2px 10px rgba(255, 192, 203, 0.8);
+            animation: glow 2s infinite alternate;
+        }
+        @keyframes glow {
+            0% { box-shadow: 0px 0px 10px rgba(255, 192, 203, 0.8); }
+            100% { box-shadow: 0px 0px 20px rgba(255, 105, 180, 0.8); }
+        }
+        .about-you {
+            margin-top: 30px;
+            padding: 20px;
+            font-style: italic;
+            background: rgba(160, 8, 84, 0.4);
+            border-radius: 15px;
+            box-shadow: 3px 3px 15px rgba(255, 105, 180, 0.8);
+            display: inline-block;
+            animation: slideIn 2s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>💖Nayla Friscaa💖</h1>
+    <h2>About You💕</h2>
+    <div class="gallery">
+        <!-- Tambahkan gambar kita di sini -->
+        <img src="nay.jpg" alt="Moment indah kita">
+        <img src="nay1.jpg" alt="Kenangan spesial">
+        <img src="Nay2.jpg" alt="Cinta kita selamanya">
+    </div>
+
+    <div class="special-words">
+        <h2>Who Is She ??</h2>
+        <p>"dia adalah perempuan hebat yang akan selalu kusebut cantik, dia yang tidak mengakui dirinya memiliki begitu banyak keistimewaan. 
+            dia yang sempurna seringkali membuatku takjub dan bangga tentang dirinya. 
+            tak habis-habis diri ini dibuat jatuh cinta oleh keindahan dirinya. 
+            aku tidak berharap banyak tentang hari itu, namun yang aku harapkan selalu adalah diri ini dapat terus bersamanya. 
+            bersama perempuan cantik dengan segala keistimewaan dalam dirinya. she's so admirable, adorable, alluring, angelic, appealing, beauteous, bewitching, captivating, charming, classy, comely, cute, dazzling, delicate, delightful, divine, elegant, enthralling" 💖</p>
+    </div>
+
+    <div class="about-you">
+        <h2>Message</h2>
+        <p>aku tidak pernah benar-benar melupakanmu. seberapa jauh waktu membawa kita, seberapa lama hari-hari berlalu tanpa kabar, bayangmu tetap tinggal, utuh di sudut paling dalam ingatan. 
+            aku masih mengingat segalanya-tatapan matamu, senyum yang selalu tampak tulus, dan tawa ringan yang entah mengapa selalu berhasil membuat dunia terasa lebih sederhana.
+            aku tak pernah menyesal menyimpan perasaan ini begitu lama. kamu adalah first loveku. bahkan saat tak ada kepastian, bahkan ketika dunia seolah mengisyaratkan untuk berhenti. 
+            bagiku, perasaan ini bukan beban, melainkan sesuatu yang berharga. rasanya tak perlu ada penyesalan untuk sesuatu yang begitu tulus. 
+            aku rela membawanya, walau sendirian, jika itu berarti aku bisa tetap mengingatmu dengan cara yang paling indah.
+            setiap hari, selalu ada keinginan untuk tahu lebih banyak tentangmu. apa kabarmu kini? apakah senyummu masih sama seperti yang terakhir kali kulihat? apakah tawa itu masih mengalir ringan saat kau menemukan hal-hal kecil yang membuatmu bahagia? aku selalu bertanya-tanya, meski tak pernah berharap akan mendapat jawaban.
+            kamu tetap menjadi hal yang sulit kujelaskan. seolah-olah, apa pun yang kulakukan, selalu ada bagian dari diriku yang ingin kembali padamu-walau hanya sekadar mengenang. dan mungkin, di antara semua hal yang tak pasti, satu hal yang paling aku yakini adalah aku tak pernah benar-benar bisa melupakanmu.</p>
+    </div>
+</body>
+</html>
